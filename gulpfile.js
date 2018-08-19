@@ -10,9 +10,9 @@ gulp.task('default', function() {
 
 gulp.task('compress', function (cb) {
   pump([
-        gulp.src('globalassets/vendor/fancybox/jquery.fancybox.js'),
+        gulp.src('jshost/jquery.min.js'),
         uglify(),
-        gulp.dest('dist/vendor/')
+        gulp.dest('jshost/')
     ],
     cb
   );
