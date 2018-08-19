@@ -232,6 +232,7 @@
      *
      * @return undefined
      */
+	 
     initTextAnimation(carousel, textAnimationSelector) {
 
       if (!window.TextFx || !window.anime || !carousel.length) return;
